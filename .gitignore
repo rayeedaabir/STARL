@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data & large artifacts (do NOT commit raw images or checkpoints)
+*.pth
+*.pt
+*.ckpt
+data/
+images/
+raw/
+*.zip
+
+# Keep the small, shareable artifacts:
+!manifests/
+!results/
+!figures/
+
+# Local scratch
+*.log
+tmp/
+scratch/

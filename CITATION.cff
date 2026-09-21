@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use STARL, please cite the paper and the archived release."
+title: "STARL: A Leakage-free Benchmark for Continual Learning in Medical Imaging"
+type: software
+authors:
+  - family-names: "Ahsan"
+    given-names: "Rayeed Aabir"
+  - family-names: "Islam"
+    given-names: "Rejmin"
+  - family-names: "Mohsin"
+    given-names: "Jarif"          # remove if not included as an author
+  - family-names: "Ahmed"
+    given-names: "Silvia"
+year: 2026
+license: MIT
+repository-code: "https://github.com/<your-username>/STARL"
+doi: "PLACEHOLDER_ZENODO_DOI"
+keywords:
+  - continual learning
+  - catastrophic forgetting
+  - medical imaging
+  - benchmark
+  - diabetic retinopathy
+  - dermoscopy
+preferred-citation:
+  type: article
+  title: "STARL: A Leakage-free Benchmark for Continual Learning in Medical Imaging"
+  authors:
+    - family-names: "Ahsan"
+      given-names: "Rayeed Aabir"
+    - family-names: "Islam"
+      given-names: "Rejmin"
+    - family-names: "Mohsin"
+      given-names: "Jarif"
+    - family-names: "Ahmed"
+      given-names: "Silvia"
+  journal: "Medical Image Analysis"
+  year: PLACEHOLDER_YEAR
+  doi: "PLACEHOLDER_MEDIA_DOI"

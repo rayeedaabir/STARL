@@ -1,0 +1,18 @@
+# Core (verified from the STARL scripts)
+torch
+torchvision
+timm            # architecture zoo (Swin, CoAtNet, ResNets, VGG, ...)
+numpy
+pandas
+scikit-learn    # stratified splits + per-class metrics
+Pillow          # image loading
+imagehash       # perceptual-hash de-duplication (Phase 1)
+
+# Figures / analysis
+matplotlib
+
+# KAN architecture only — install the KAN package you used, e.g.:
+# pykan            # (or efficient-kan) — required only to run the KAN model
+
+# Pin exact versions before archiving for full reproducibility, e.g.:
+#   pip freeze > requirements.lock.txt
