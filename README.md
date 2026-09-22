@@ -130,7 +130,7 @@ If you use STARL, please cite the paper and the archived release:
   author    = {Ahsan, Rayeed Aabir and Islam, Rejmin and Mohsin, Jarif and Ahmed, Silvia},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {(https://doi.org/10.5281/zenodo.22905549)}
+  doi       = {https://doi.org/10.5281/zenodo.22905549}
 }
 ```
 
