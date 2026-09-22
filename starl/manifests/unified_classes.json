@@ -1,0 +1,102 @@
+{
+  "created": "2026-07-02T23:15:09.772855Z",
+  "sequence": "Option-1a  APTOS(5) -> ODIR non-DR(+7) -> LAG(+0) -> HAM(+7)",
+  "random_seed": 42,
+  "split_fracs": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "phash_size": 8,
+  "phash_threshold": 5,
+  "all_classes": [
+    "No DR",
+    "Mild DR",
+    "Moderate DR",
+    "Severe DR",
+    "Proliferative DR",
+    "Normal",
+    "Glaucoma",
+    "Cataract",
+    "AMD",
+    "Hypertension",
+    "Myopia",
+    "Other",
+    "Actinic Keratoses",
+    "Basal Cell Carcinoma",
+    "Benign Keratosis",
+    "Dermatofibroma",
+    "Melanocytic Nevi",
+    "Melanoma",
+    "Vascular Lesions"
+  ],
+  "label2idx": {
+    "No DR": 0,
+    "Mild DR": 1,
+    "Moderate DR": 2,
+    "Severe DR": 3,
+    "Proliferative DR": 4,
+    "Normal": 5,
+    "Glaucoma": 6,
+    "Cataract": 7,
+    "AMD": 8,
+    "Hypertension": 9,
+    "Myopia": 10,
+    "Other": 11,
+    "Actinic Keratoses": 12,
+    "Basal Cell Carcinoma": 13,
+    "Benign Keratosis": 14,
+    "Dermatofibroma": 15,
+    "Melanocytic Nevi": 16,
+    "Melanoma": 17,
+    "Vascular Lesions": 18
+  },
+  "task_classes": {
+    "T1_APTOS": [
+      "No DR",
+      "Mild DR",
+      "Moderate DR",
+      "Severe DR",
+      "Proliferative DR"
+    ],
+    "T2_ODIR": [
+      "Normal",
+      "Glaucoma",
+      "Cataract",
+      "AMD",
+      "Hypertension",
+      "Myopia",
+      "Other"
+    ],
+    "T3_LAG": [
+      "Normal",
+      "Glaucoma"
+    ],
+    "T4_HAM": [
+      "Actinic Keratoses",
+      "Basal Cell Carcinoma",
+      "Benign Keratosis",
+      "Dermatofibroma",
+      "Melanocytic Nevi",
+      "Melanoma",
+      "Vascular Lesions"
+    ]
+  },
+  "task_order": [
+    "T1_APTOS",
+    "T2_ODIR",
+    "T3_LAG",
+    "T4_HAM"
+  ],
+  "roots_used": {
+    "T1_APTOS": "/kaggle/input/datasets/mariaherrerot/aptos2019",
+    "T2_ODIR": "/kaggle/input/datasets/rayeedaabir/odir-preprocessed/organized_odir_dataset",
+    "T3_LAG": "/kaggle/input/datasets/rayeedaabir/lag-database-part1-uk/LAG_database_part1_UK",
+    "T4_HAM": "/kaggle/input/datasets/rayeedaabir/ham10000-preprocessed/organized_ham10000"
+  },
+  "counts": {
+    "kept": 20701,
+    "removed_dupes": 2099,
+    "unreadable": 0
+  }
+}
