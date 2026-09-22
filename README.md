@@ -13,7 +13,7 @@
 
 </div>
 
-![STARL pipeline](figures/pipeline.svg)
+![STARL pipeline](figures/pipeline.png)
 
 ---
 
